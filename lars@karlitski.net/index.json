@@ -1,6 +1,9 @@
 {
   "lars@karlitski.net": {
     "name": "Lars Karlitski",
-    "picture": "https://github.com/larskarlitski.png"
+    "picture": "https://github.com/larskarlitski.png",
+    "aka": [
+      "lars@eorum.org"
+    ]
   }
 }
