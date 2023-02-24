@@ -4,6 +4,26 @@
     "picture": "https://github.com/larskarlitski.png",
     "aka": [
       "lars@eorum.org"
-    ]
+    ],
+    "bdf623e6-a4a7-43a9-b843-00b91eee8b76": {
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/larskarlitski"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/larskarlitski"
+        },
+        {
+          "title": "Mastodon",
+          "url": "https://ohai.social/@larskarlitski"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/lars-karlitski-330134b9/"
+        }
+      ]
+    }
   }
 }
