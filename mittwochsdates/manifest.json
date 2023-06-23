@@ -1,5 +1,14 @@
 {
   "name": "Mittwochsdates",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
   "display": "standalone",
-  "scope": "https://karlitski.net/mittwochsdates"
+  "scope": "https://karlitski.net/mittwochsdates",
+  "start_url": "https://karlitski.net/mittwochsdates",
+  "background_color": "#fafafa"
 }
