@@ -1,0 +1,191 @@
+:root {
+  --faina-color: hsl(329, 100%, 68%);
+  --lars-color: hsl(29, 100%, 68%);
+  --highlight-color: color-mix(in srgb, var(--faina-color), var(--lars-color));
+  --light-text-color: hsl(0, 0%, 68%);
+  --border-color: hsl(0, 0%, 68%);
+  --light-border-color: hsl(0, 0%, 90%);
+}
+
+/* https://meowni.ca/hidden.is.a.lie.html */
+[hidden] {
+  display: none !important;
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url("./lobster.regular.otf");
+}
+
+body {
+  font-family: system-ui;
+
+  background: #fafafa;
+  max-width: 40em;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 6rem;
+  margin-bottom: 0.1em;
+  text-align: center;
+
+  color: transparent;
+  background: linear-gradient(85deg, var(--faina-color), var(--lars-color));
+  background-clip: text;
+  -webkit-background-clip: text; /* for Chrome */
+}
+
+@media (max-width: 650px) {
+  h1 { font-size: 4rem; }
+}
+
+@media (max-width: 450px) {
+  h1 { font-size: 3rem; }
+}
+
+ul#restaurants {
+  list-style-type: none;
+  padding: 0;
+}
+
+.restaurant {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0px 0px 8px -4px var(--border-color);
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.restaurant.lars {
+  border: 1px solid var(--lars-color);
+  box-shadow: 0px 0px 8px -4px var(--lars-color);
+}
+
+.restaurant.faina {
+  border: 1px solid var(--faina-color);
+  box-shadow: 0px 0px 8px -4px var(--faina-color);
+}
+
+.restaurant .icon {
+  margin-top: 0.25rem;
+  margin-right: 0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.restaurant.lars .icon {
+  fill: var(--lars-color);
+}
+
+.restaurant.faina .icon {
+  fill: var(--faina-color);
+}
+
+.restaurant a {
+  text-decoration: none;
+}
+
+.restaurant a:hover {
+  text-decoration: underline;
+}
+
+.restaurant.lars a,
+span.lars {
+  color: var(--lars-color);
+}
+
+.restaurant.faina a,
+span.faina {
+  color: var(--faina-color);
+}
+
+.restaurant > div {
+  flex: 1 1 auto;
+}
+
+.restaurant h3 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.restaurant.closed {
+  color: var(--light-text-color);
+}
+
+.restaurant .properties {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.restaurant .notes {
+  color: var(--light-text-color);
+  margin: 0;
+  white-space: pre-line;
+  font-size: smaller;
+}
+
+.restaurant .date {
+  font-weight: 600;
+  color: var(--light-text-color);
+  float: right;
+}
+
+#searchbar div {
+  display: flex;
+  border: 1px solid var(--light-border-color);
+  box-shadow: 0px 0px 8px -4px var(--light-border-color);
+  border-radius: 8px;
+  background: white;
+  padding: 0.75em;
+}
+
+#searchbar div:focus-within {
+  border: 1px solid var(--highlight-color);
+  box-shadow: 0px 0px 8px -4px var(--highlight-color);
+}
+
+#searchbar input[type="text"] {
+  flex-grow: 2;
+  border: none;
+  font-size: 1rem;
+  padding: 0;
+}
+
+#searchabr input[type="text"]::placeholder {
+  color: var(--light-text-color);
+}
+
+#searchbar input[type="text"]:focus {
+  outline: none;
+}
+
+#count {
+  color: var(--light-text-color);
+  background: white;
+}
+
+#stats {
+  color: var(--light-text-color);
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 650px) {
+  #stats { font-size: 1.25em; }
+}
+
+@media (max-width: 450px) {
+  #stats { font-size: 1rem; }
+}
+
+#stats span.detail {
+  font-size: 0.6em;
+}
