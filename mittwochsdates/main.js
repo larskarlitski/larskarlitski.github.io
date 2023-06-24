@@ -96,7 +96,8 @@ function search(query) {
         prettyNumber(index).includes(q) ||
         restaurant.district.toLowerCase().includes(q) ||
         restaurant.notes?.toLowerCase().includes(q) ||
-        restaurant.by.includes(q);
+        restaurant.by.includes(q) ||
+        (restaurant.closed && "geschlossen".includes(q));
     });
     if (!li.hidden) {
       count += 1;
