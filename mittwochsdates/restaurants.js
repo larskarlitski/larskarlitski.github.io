@@ -1369,6 +1369,14 @@ export default [
     starred: true
   },
   {
+    name: "Remi",
+    date: { year: 2023, month: 4  },
+    district: "Mitte",
+    notes: "",
+    url: "https://remi-berlin.de",
+    by: "faina"
+  },
+  {
     name: "Berta",
     date: { year: 2023, month: 4  },
     district: "Mitte",
