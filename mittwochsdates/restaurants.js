@@ -671,7 +671,7 @@ export default [
     date: { year: 2017, month: 8 },
     district: "Wedding",
     notes: "Burrata mit Gemüse\nRigatoni Ragu",
-    by: "lars",
+    by: "faina",
     starred: true,
     closed: true
   },
@@ -753,7 +753,7 @@ export default [
     name: "Maison Han",
     date: { year: 2018, month: 2 },
     district: "Neukölln",
-    notes: "Bo Ne\nReispapiersalat\nBun Cha\nMAtcha Lemon Tee",
+    notes: "Bo Ne\nReispapiersalat\nBun Cha\nMatcha Lemon Tee",
     by: "lars",
     starred: true
   },
@@ -782,7 +782,7 @@ export default [
     by: "faina"
   },
   {
-    name: "Honig & Seng",
+    name: "Honig & Senf",
     date: { year: 2018, month: 5 },
     district: "Moabit",
     notes: "BBQ Burger\nHot Crispy Chicken\nSweet Potato Fries",
