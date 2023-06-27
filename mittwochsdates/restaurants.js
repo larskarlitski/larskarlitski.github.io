@@ -307,7 +307,8 @@ export default [
     district: "Neukölln",
     notes: "Köfte, Tabouleh, Hummus",
     url: "https://www.oskitchen-berlin.de",
-    by: "lars"
+    by: "lars",
+    closed: true
   },
   {
     name: "House of Small Wonder",
