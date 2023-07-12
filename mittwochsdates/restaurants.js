@@ -1402,5 +1402,14 @@ export default [
     url: "https://stbartpub.com",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Fa:me",
+    date: { year: 2023, month: 7 },
+    district: "Kreuzberg",
+    notes: "Vorspeisenteller\nDreierlei Tartar (Fisch)\nOktopus auf Burrataschaum\nKartoffel Mille-Feuille mit Pfifferlingen\nZitronenblondie",
+    url: "https://famegastrobar.com",
+    by: "faina",
+    starred: true
   }
 ];
