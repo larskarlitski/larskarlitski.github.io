@@ -1411,5 +1411,14 @@ export default [
     url: "https://famegastrobar.com",
     by: "faina",
     starred: true
+  },
+  {
+    name: "Golvet",
+    date: { year: 2023, month: 7 },
+    district: "Mitte",
+    notes: "7-Gänge Menü mit\n- Gruß aus der Küche (Rettich, Melone)\n- Sommersalat mit Kürbis\n- Brandenburger Wildtartar\n- Hamachi mit Kaviar\n- Wels mit Zitussauce\n- Zweierlei Lamm mit Jus\n- Tomatendessert\n- Mirabellendessert\n- Zimtschnecke\n- Gurken- und Rote-Beete-Geist",
+    url: "https://golvet.de",
+    by: "lars",
+    starred: true
   }
 ];
