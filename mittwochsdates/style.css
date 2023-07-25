@@ -176,7 +176,7 @@ span.faina {
   font-size: 1.5em;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 @media (max-width: 650px) {
@@ -189,4 +189,9 @@ span.faina {
 
 #stats span.detail {
   font-size: 0.6em;
+}
+
+svg {
+  fill: var(--light-text-color);
+  margin-bottom: 1em;
 }

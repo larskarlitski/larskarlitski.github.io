@@ -145,6 +145,42 @@ document.addEventListener("DOMContentLoaded", function () {
     " Sterne"
   );
 
+
+  let now = new Date();
+  let datesPerMonth = new Array((now.getFullYear() - 2017 + 1) * 12);
+  for (let i = 0; i < datesPerMonth.length; i += 1) {
+    let m = now.getMonth() - (i % 12);
+    if (m < 0) {
+      m += 12;
+    }
+    datesPerMonth[i] = { month: months[m + 1], count: 0 };
+  }
+  let hist = {};
+  for (let r of restaurants) {
+    if (r.date.year < 2017 || !r.date.month) {
+      continue;
+    }
+    let delta = (now.getFullYear() - r.date.year) * 12 + now.getMonth() - r.date.month + 1;
+    datesPerMonth[delta].count += 1;
+  }
+
+  let graph = document.getElementById("graph");
+  let right = graph.width.baseVal.value;
+  let xaxis = graph.height.baseVal.value * 0.7;
+  let r = e("svg:rect", { width: "1em", height: 10 });
+  graph.appendChild(r);
+  let barWidth = r.getBBox().width;
+  graph.removeChild(r);
+  let x = right - barWidth;
+  for (let m of datesPerMonth) {
+    graph.appendChild(e("svg:rect", { x: x, y: xaxis - m.count * 6, width: barWidth, height: m.count * 6 }));
+    graph.appendChild(e("svg:text", { x: x + barWidth / 2.0, y: xaxis + 6, "text-anchor": "middle", "dominant-baseline": "hanging" }, m.month[0]));
+    x = x - barWidth - barWidth / 3;
+    if (x < 0) {
+      break;
+    }
+  }
+
   document.getElementById("search").addEventListener("input", function (event) {
     search(event.target.value);
   });
