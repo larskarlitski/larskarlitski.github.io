@@ -1420,5 +1420,14 @@ export default [
     url: "https://golvet.de",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Facciola",
+    date: { year: 2023, month: 8 },
+    district: "Kreuzberg",
+    notes: "Oliven\nTagliare mit Käse und Wurst\nVegetarische Lasagne\nPanna Cotta",
+    url: "https://www.facciolawinebar.com",
+    by: "faina",
+    starred: true
   }
 ];
