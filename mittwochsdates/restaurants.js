@@ -1429,5 +1429,14 @@ export default [
     url: "https://www.facciolawinebar.com",
     by: "faina",
     starred: true
+  },
+  {
+    name: "Antonello's Sizilianische Cevicheria & Street Food",
+    date: { year: 2023, month: 8 },
+    district: "Kreuzberg",
+    notes: "Cazille (Kartoffel-Aubergine Kroketten)\nInsalata di Polipo\nCeviche Mango\nCeviche Rosso & Bianco (Thunfisch und Wolfsbarsch)\nPanna Cotta",
+    url: "https://www.cevicheriastreetfood.de",
+    by: "lars",
+    starred: true
   }
 ];
