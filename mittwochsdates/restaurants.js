@@ -1438,5 +1438,14 @@ export default [
     url: "https://www.cevicheriastreetfood.de",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Bar DaF",
+    date: { year: 2023, month: 9 },
+    district: "Treptow",
+    notes: "Lachs Sashimi\nSchweinebauch-Wirsing-Dumplings\nTofu-Gemüse-Dumplings\nPasta mit weißer Sauce\nWakame-Gurken-Salat\nEdamame\nSpagliato",
+    url: "https://www.bardaf.de",
+    by: "faina",
+    starred: true
   }
 ];
