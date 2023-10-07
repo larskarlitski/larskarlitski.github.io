@@ -1447,5 +1447,13 @@ export default [
     url: "https://www.bardaf.de",
     by: "faina",
     starred: true
+  },
+  {
+    name: "COOQUIN Café",
+    date: { year: 2023, month: 10 },
+    district: "Lichtenberg",
+    notes: "Gỏi bơ (Avocado) Salat\nBánh Mì Xá Xíu (Scheinefleisch)\nBánh Mì Gà Nướng (Zitronengras Hähnchen)\nEistee",
+    url: "https://www.cooquin.de",
+    by: "lars"
   }
 ];
