@@ -1455,5 +1455,13 @@ export default [
     notes: "Gỏi bơ (Avocado) Salat\nBánh Mì Xá Xíu (Scheinefleisch)\nBánh Mì Gà Nướng (Zitronengras Hähnchen)\nEistee",
     url: "https://www.cooquin.de",
     by: "lars"
-  }
+  },
+  {
+    name: "Paracas",
+    date: { year: 2023, month: 10 },
+    district: "Mitte",
+    notes: "Cabrito Norteño\nGemüsefajitas\nCrema Catalana",
+    url: "https://paracas.de",
+    by: "faina"
+  },
 ];
