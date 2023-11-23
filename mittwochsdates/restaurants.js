@@ -1464,4 +1464,13 @@ export default [
     url: "https://paracas.de",
     by: "faina"
   },
+  {
+    name: "Asude",
+    date: { year: 2023, month: 11 },
+    district: "Neukölln",
+    notes: "Linsensuppe\nKöfte\nEintopf mit Kartoffeln \"und Gemischtes\"\nSütlac",
+    url: "https://asude.de",
+    by: "lars",
+    starred: true
+  }
 ];
