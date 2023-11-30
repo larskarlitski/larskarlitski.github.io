@@ -1472,5 +1472,13 @@ export default [
     url: "https://asude.de",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Wurstpate",
+    date: { year: 2023, month: 11 },
+    district: "Mitte",
+    notes: "Currywurst (scharf)\nKettwurst im Brot\nGroße Pommes mit Majo\nZwei Glühwein",
+    url: "https://www.wurstpateoriginal.de",
+    by: "faina",
   }
 ];
