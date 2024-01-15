@@ -1480,5 +1480,13 @@ export default [
     notes: "Currywurst (scharf)\nKettwurst im Brot\nGroße Pommes mit Majo\nZwei Glühwein",
     url: "https://www.wurstpateoriginal.de",
     by: "faina",
-  }
+  },
+  {
+    name: "Black Flamingo",
+    date: { year: 2024, month: 1 },
+    district: "Palm Jumeirah",
+    notes: "Plantain und Krabbenchips mit Guacamole\nPanierter Baby-Squid\nChoclos (verschiedene Maissorten)\nTrüffelstampf\nSchicke Cocktails",
+    url: "https://blackflamingodxb.com",
+    by: "lars",
+  },
 ];
