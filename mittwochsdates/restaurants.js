@@ -1479,7 +1479,7 @@ export default [
     district: "Mitte",
     notes: "Currywurst (scharf)\nKettwurst im Brot\nGroße Pommes mit Majo\nZwei Glühwein",
     url: "https://www.wurstpateoriginal.de",
-    by: "faina",
+    by: "faina"
   },
   {
     name: "Black Flamingo",
@@ -1488,5 +1488,6 @@ export default [
     notes: "Plantain und Krabbenchips mit Guacamole\nPanierter Baby-Squid\nChoclos (verschiedene Maissorten)\nTrüffelstampf\nSchicke Cocktails",
     url: "https://blackflamingodxb.com",
     by: "lars",
+    starred: true
   },
 ];
