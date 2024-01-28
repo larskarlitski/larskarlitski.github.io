@@ -1490,4 +1490,12 @@ export default [
     by: "lars",
     starred: true
   },
+  {
+    name: "Al Fanar Seafood Restaurant",
+    date: { year: 2024, month: 1 },
+    district: "Al Barsha",
+    notes: "Mixed starters (Croquettes, Fish cakes, Aubergine)\nSeafood soup\nSlightly burned Seab Base Tandoori\nMixed Salad",
+    url: "https://www.alfanarrestaurant.com/uae",
+    by: "faina"
+  }
 ];
