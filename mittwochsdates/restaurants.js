@@ -1506,5 +1506,14 @@ export default [
     url: "https://ernstbiergarten.com",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Katsuya",
+    date: { year: 2024, month: 3 },
+    district: "Business Bay",
+    notes: "Edamame\nHouse Salad\nBrokkoli Tempura\nWagyu Gyoza\nTuna Roll\nSunset Roll\nCrispy Salmon Roll",
+    url: "https://restaurantsandbars.accor.com/en/restaurant/B8Y1_R002",
+    by: "faina",
+    starred: true
   }
 ];
