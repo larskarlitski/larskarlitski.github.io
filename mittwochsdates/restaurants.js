@@ -1497,5 +1497,14 @@ export default [
     notes: "Mixed starters (Croquettes, Fish cakes, Aubergine)\nSeafood soup\nSlightly burned Seab Base Tandoori\nMixed Salad",
     url: "https://www.alfanarrestaurant.com/uae",
     by: "faina"
+  },
+  {
+    name: "Ernst Biergarten & Wirtshaus",
+    date: { year: 2024, month: 3 },
+    district: "DIFC",
+    notes: "Wiener Schnitzel\nCurrywurst (Contains Pork!)\nBeilagensalat\nKaiserschmarrn",
+    url: "https://ernstbiergarten.com",
+    by: "lars",
+    starred: true
   }
 ];
