@@ -1487,8 +1487,7 @@ export default [
     district: "Palm Jumeirah",
     notes: "Plantain und Krabbenchips mit Guacamole\nPanierter Baby-Squid\nChoclos (verschiedene Maissorten)\nTrüffelstampf\nSchicke Cocktails",
     url: "https://blackflamingodxb.com",
-    by: "lars",
-    starred: true
+    by: "lars"
   },
   {
     name: "Al Fanar Seafood Restaurant",
@@ -1513,6 +1512,24 @@ export default [
     district: "Business Bay",
     notes: "Edamame\nHouse Salad\nBrokkoli Tempura\nWagyu Gyoza\nTuna Roll\nSunset Roll\nCrispy Salmon Roll",
     url: "https://restaurantsandbars.accor.com/en/restaurant/B8Y1_R002",
+    by: "faina",
+    starred: true
+  },
+  {
+    name: "Qartuli",
+    date: { year: 2024, month: 4 },
+    district: "Downtown",
+    notes: "Lobio\nGeorgian salad with walnut dressing\nKhachapuri\nKhinkali",
+    url: "https://www.qartuli.ae",
+    by: "lars",
+    starred: true
+  },
+  {
+    name: "Atrangi",
+    date: { year: 2024, month: 4 },
+    district: "Jumeirah",
+    notes: "Sweet potato carpaccio\nSmoked duck kebab\nCorn cobs with corn porridge\nMutton Chops with mint sauce\nDal makhani with naan",
+    url: "https://www.atrangidubai.com",
     by: "faina",
     starred: true
   }
