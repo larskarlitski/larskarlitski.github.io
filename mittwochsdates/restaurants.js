@@ -1532,5 +1532,14 @@ export default [
     url: "https://www.atrangidubai.com",
     by: "faina",
     starred: true
+  },
+  {
+    name: "The Eloquent Elephant",
+    date: { year: 2024, month: 5 },
+    district: "Business Bay",
+    notes: "Steamed vegetables\nMashed potatoes\nSalmon tartar\nBurrata salad\nG & Tea",
+    url: "https://www.tajhotels.com/en-in/hotels/taj-dubai/restaurants/the-eloquent-elephant",
+    by: "lars",
+    starred: true
   }
 ];
