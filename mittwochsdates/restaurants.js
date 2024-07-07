@@ -1549,5 +1549,13 @@ export default [
     notes: "Miso Labneh Tomatoes\nSeabass Ceviche\nOctopus\nGrilled Cauliflower\nRavioli Pumpkin",
     url: "https://www.teible.com",
     by: "faina"
+  },
+  {
+    name: "The Kosher Place",
+    date: { year: 2024, month: 7 },
+    district: "Deira",
+    notes: "Eight variety homemade salads of the day and focaccia made on the Tabun\nArais\nMoroccan fish cigar",
+    url: "https://thekosherplace.ae/dubai",
+    by: "lars"
   }
 ];
