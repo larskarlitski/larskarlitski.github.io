@@ -1541,5 +1541,13 @@ export default [
     url: "https://www.tajhotels.com/en-in/hotels/taj-dubai/restaurants/the-eloquent-elephant",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Teible",
+    date: { year: 2024, month: 6 },
+    district: "Al Jadaf",
+    notes: "Miso Labneh Tomatoes\nSeabass Ceviche\nOctopus\nGrilled Cauliflower\nRavioli Pumpkin",
+    url: "https://www.teible.com",
+    by: "faina"
   }
 ];
