@@ -1557,5 +1557,13 @@ export default [
     notes: "Eight variety homemade salads of the day and focaccia made on the Tabun\nArais\nMoroccan fish cigar",
     url: "https://thekosherplace.ae/dubai",
     by: "lars"
+  },
+  {
+    name: "Café Isan",
+    date: { year: 2024, month: 8 },
+    district: "JLT",
+    notes: "Papaty salad\nPad Thai\nThe hustler\nMagno and sticky rice",
+    url: "https://www.cafeisan.co",
+    by: "faina"
   }
 ];
