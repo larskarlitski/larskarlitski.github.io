@@ -1565,5 +1565,14 @@ export default [
     notes: "Papaty salad\nPad Thai\nThe hustler\nMagno and sticky rice",
     url: "https://www.cafeisan.co",
     by: "faina"
+  },
+  {
+    name: "Couqley French Brasserie",
+    date: { year: 2024, month: 8 },
+    district: "Business Bay",
+    notes: "Salade de lentilles\nOctopus\nSweet roasted peppers\nMoules frites\nTarte fine aux pommes",
+    url: "https://couqley.ae/couqley-downtown",
+    by: "lars",
+    starred: true
   }
 ];
