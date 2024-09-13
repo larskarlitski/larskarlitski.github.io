@@ -1574,5 +1574,14 @@ export default [
     url: "https://couqley.ae/couqley-downtown",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Jara",
+    date: { year: 2024, month: 9 },
+    district: "Business Bay",
+    notes: "Squid and mushroom croquetes\nAvocado salad\nMashed potatoes\nRoasted peppers\nClam risotto\nMezcal negroni with chocolate\nAgri dulce cocktail (no alcohol)",
+    url: "https://www.dorchestercollection.com/dubai/the-lana/dining/jara-by-martin-berasategui",
+    by: "faina",
+    starred: true
   }
 ];
