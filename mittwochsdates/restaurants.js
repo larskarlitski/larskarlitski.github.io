@@ -1583,5 +1583,14 @@ export default [
     url: "https://www.dorchestercollection.com/dubai/the-lana/dining/jara-by-martin-berasategui",
     by: "faina",
     starred: true
+  },
+  {
+    name: "Al Ustad Special Kebap",
+    date: { year: 2024, month: 9 },
+    district: "Bur Dubai",
+    notes: "Iranian house soup\nTahdeek (scorched rice)\nGarlic Paste\nMixed Salad\nMutton kebap",
+    url: "https://alustadspecialkabab.has.restaurant",
+    by: "lars",
+    starred: true
   }
 ];
