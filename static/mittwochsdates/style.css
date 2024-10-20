@@ -79,6 +79,10 @@ ul#restaurants {
   height: 1.75rem;
 }
 
+.restaurant:not(.starred) svg.icon {
+  visibility: hidden;
+}
+
 .restaurant.lars .icon {
   fill: var(--lars-color);
 }

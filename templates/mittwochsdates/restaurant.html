@@ -1,0 +1,17 @@
+<li class="restaurant {by} {#closed}closed{/closed} {#starred}starred{/starred}">
+  <svg class="icon">
+    <use href="#star">
+  </svg>
+  <div>
+    <span class="date">{#date.month}{.}&nbsp;{/date.month}{date.year}</span>
+    <h3>{name}</h3>
+    <p class="properties">
+      <span>#{number}</span>
+      <span> • </span>
+      <span>{district}</span>
+      <span> • </span>
+      <a href="{url}">Webseite</a>
+    </p>
+    <p class="notes">{notes}</p>
+  </div>
+</li>

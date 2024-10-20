@@ -567,7 +567,7 @@ export default [
   },
   {
     name: "Babbo Bar",
-    date: { year: 2017, month: 1 },
+    date: { year: 2017, month: "Januar" },
     district: "Neukölln",
     notes: "Vegetarisches Menü (Rote Beete und Walnuss, Ziegenkäse)\nKürbisravioli\nThunfisch Carpaccio",
     url: "https://www.babbo-bar.com",
@@ -576,7 +576,7 @@ export default [
   },
   {
     name: "Noto",
-    date: { year: 2017, month: 3 },
+    date: { year: 2017, month: "März" },
     district: "Mitte",
     notes: "Weidelamm mit karamellisierter Beete, Topinamburpuree\nHeilbutt mit Linsen und Chorizo, Venusmuschel",
     url: "http://noto-berlin.com",
@@ -584,7 +584,7 @@ export default [
   },
   {
     name: "Patta Baked Potato",
-    date: { year: 2017, month: 3 },
+    date: { year: 2017, month: "März" },
     district: "Friedrichshain",
     notes: "Hot Chili Potato\nTuna Potato",
     by: "faina",
@@ -592,7 +592,7 @@ export default [
   },
   {
     name: "Vertikal",
-    date: { year: 2017, month: 4 },
+    date: { year: 2017, month: "April" },
     district: "Kreuzberg",
     notes: "Kroketten, Tartar, Käseplatte, Buratta",
     by: "lars",
@@ -601,7 +601,7 @@ export default [
   },
   {
     name: "Beuster Bar",
-    date: { year: 2017, month: 4 },
+    date: { year: 2017, month: "April" },
     district: "Neukölln",
     notes: "Babbyspinat, Salat, Lachs, Salbei-Gnocchi\n Crème Brulée",
     url: "http://beusterbar.com",
@@ -610,7 +610,7 @@ export default [
   },
   {
     name: "Kanaan",
-    date: { year: 2017, month: 4 },
+    date: { year: 2017, month: "April" },
     district: "Prenzlauer Berg",
     notes: "Rote-Beete-Hummus, Malawach, Salat",
     url: "https://www.kanaan-berlin.de",
@@ -619,7 +619,7 @@ export default [
   },
   {
     name: "CODA",
-    date: { year: 2017, month: 4 },
+    date: { year: 2017, month: "April" },
     district: "Neukölln",
     notes: "2×6-Gänge Dessertmenü mit passenden Drinks (und geräucherten Pralinen)",
     url: "https://coda-berlin.com",
@@ -628,7 +628,7 @@ export default [
   },
   {
     name: "Heno Heno",
-    date: { year: 2017, month: 5 },
+    date: { year: 2017, month: "Mai" },
     district: "Charlottenburg",
     notes: "Eyudon, vegetarisches Udon\nTofutaschen\nEdamame\nObstsalat",
     url: "https://henoheno.de",
@@ -636,7 +636,7 @@ export default [
   },
   {
     name: "Begur",
-    date: { year: 2017, month: 5 },
+    date: { year: 2017, month: "Mai" },
     district: "Neukölln",
     notes: "Jamon Iberico\nTortilla Pancakes\nRotbarsch mit Knoblauch\nSchoko-Fondant",
     by: "faina",
@@ -645,7 +645,7 @@ export default [
   },
   {
     name: "Jolesch",
-    date: { year: 2017, month: 6 },
+    date: { year: 2017, month: "Juni" },
     district: "Kreuzberg",
     notes: "Saftgulasch mit Semmelknödel\nQuinoasalat mit Avocado",
     url: "https://jolesch.de",
@@ -653,7 +653,7 @@ export default [
   },
   {
     name: "Nithan Thai",
-    date: { year: 2017, month: 6 },
+    date: { year: 2017, month: "Juni" },
     district: "Mitte",
     notes: "Gebratene Rollen mit Lachs und Thunfisch\nUdonsuppe\nLammcurry\nBrokkoli\nReis",
     by: "faina",
@@ -661,7 +661,7 @@ export default [
   },
   {
     name: "Kafana",
-    date: { year: 2017, month: 7 },
+    date: { year: 2017, month: "Juli" },
     district: "Schöneberg",
     notes: "Frischkäse-Chili-Aufstrich\nJunge grüne ???\nSchopskasalat\nPflaumen im Speckmantel\nLamm mit Kartoffeln und Spinat\nBlätterteig Dessert",
     by: "lars",
@@ -669,7 +669,7 @@ export default [
   },
   {
     name: "Parma di Vinibenedetti",
-    date: { year: 2017, month: 8 },
+    date: { year: 2017, month: "August" },
     district: "Wedding",
     notes: "Burrata mit Gemüse\nRigatoni Ragu",
     by: "faina",
@@ -678,7 +678,7 @@ export default [
   },
   {
     name: "Café Aroma",
-    date: { year: 2017, month: 8 },
+    date: { year: 2017, month: "August" },
     district: "Schöneberg",
     notes: "Antipasti\nSpaghetti mit Chili & Knoblauch",
     by: "lars",
@@ -686,7 +686,7 @@ export default [
   },
   {
     name: "Eins unter Null",
-    date: { year: 2017, month: 9 },
+    date: { year: 2017, month: "September" },
     district: "Mitte",
     notes: "2×7-Gänge Menü\nLandkaffee, Champignonbrot, Rettich, Roter Sud, Saitling/Topinambur, Crumble, Kandierter Schafskäse",
     by: "faina",
@@ -694,7 +694,7 @@ export default [
   },
   {
     name: "Wiener Beisl",
-    date: { year: 2017, month: 9 },
+    date: { year: 2017, month: "September" },
     district: "Charlottenburg",
     notes: "Wiener Schnitzel\nKäsespätzle\nGriesflammerie",
     by: "lars",
@@ -702,7 +702,7 @@ export default [
   },
   {
     name: "Brasserie Colette",
-    date: { year: 2017, month: 9 },
+    date: { year: 2017, month: "September" },
     district: "Charlottenburg",
     notes: "Tomatensalat mit Passionsfrucht\nErbsensuppe mit Bauchspeck\nCamembert\nLamm mit Kichererbsen\nAmor ??? (Eis mit heißen Himbeeren)",
     url: "https://brasseriecolette.de/berlin/",
@@ -710,7 +710,7 @@ export default [
   },
   {
     name: "Big Sur",
-    date: { year: 2017, month: 10 },
+    date: { year: 2017, month: "Oktober" },
     district: "Kreuzberg",
     notes: "Burger mit Pommes und rotem Kraut\nPulpo Carpaccio\nWildkräuter Salat",
     by: "lars",
@@ -719,7 +719,7 @@ export default [
   },
   {
     name: "Chez Michel",
-    date: { year: 2017, month: 11 },
+    date: { year: 2017, month: "November" },
     district: "Kreuzberg",
     notes: "Pilzrisotto\nFlammkuchen\nTarte aux pommes\nCrème Brulée",
     url: "http://chezmichel-berlin.de",
@@ -727,7 +727,7 @@ export default [
   },
   {
     name: "Austria",
-    date: { year: 2017, month: 12 },
+    date: { year: 2017, month: "Dezember" },
     district: "Kreuzberg",
     notes: "Kässpätzle\nHirschgulasch + Kloß",
     url: "https://www.austria-berlin.de",
@@ -735,7 +735,7 @@ export default [
   },
   {
     name: "Defne",
-    date: { year: 2018, month: 1 },
+    date: { year: 2018, month: "Januar" },
     district: "Kreuzberg",
     notes: "Mezzeteller\nOrientalische Fleischpfanne\nGegrillte Zucchini mit Granatapfel",
     url: "https://restaurant-defne.business.site",
@@ -744,7 +744,7 @@ export default [
   },
   {
     name: "Life",
-    date: { year: 2018, month: 1 },
+    date: { year: 2018, month: "Januar" },
     district: "Kreuzberg",
     notes: "Edamame, Tofu, Gemüse, Thunfischtartar\nSpieße, Udon, ???, Pannierter Thunfisch\nGrüntee Crème Brulée",
     url: "https://www.instagram.com/lifeberlinlife",
@@ -752,7 +752,7 @@ export default [
   },
   {
     name: "Maison Han",
-    date: { year: 2018, month: 2 },
+    date: { year: 2018, month: "Februar" },
     district: "Neukölln",
     notes: "Bo Ne\nReispapiersalat\nBun Cha\nMatcha Lemon Tee",
     by: "lars",
@@ -760,7 +760,7 @@ export default [
   },
   {
     name: "Long March Canteen",
-    date: { year: 2018, month: 3 },
+    date: { year: 2018, month: "März" },
     district: "Kreuzberg",
     notes: "2× Wintermenü: Edamame, Entenbrust, Dim Sum, Salat, scharfes Huhn, Shrimps",
     url: "http://www.longmarchcanteen.com",
@@ -769,14 +769,14 @@ export default [
   },
   {
     name: "Pan Africa",
-    date: { year: 2018, month: 3 },
+    date: { year: 2018, month: "März" },
     district: "Neukölln",
     notes: "Avocado Mango Salat\nReis mit Fleisch\nKichererbsen mit Kochbananen",
     by: "lars"
   },
   {
     name: "Maru",
-    date: { year: 2018, month: 4 },
+    date: { year: 2018, month: "April" },
     district: "Friedrichshain",
     notes: "Bibimbap\nNori-Rollen\nGarnelen-Salat",
     url: "http://www.berlinmaru.com",
@@ -784,7 +784,7 @@ export default [
   },
   {
     name: "Honig & Senf",
-    date: { year: 2018, month: 5 },
+    date: { year: 2018, month: "Mai" },
     district: "Moabit",
     notes: "BBQ Burger\nHot Crispy Chicken\nSweet Potato Fries",
     by: "lars",
@@ -792,7 +792,7 @@ export default [
   },
   {
     name: "A Never Ending Love Story",
-    date: { year: 2018, month: 5 },
+    date: { year: 2018, month: "Mai" },
     district: "Charlottenburg",
     notes: "Mexican Breakfast Bowl\nTomaten-Mozarella-Sandwich\nPancake mit Blaubeeren",
     url: "https://anevereverendinglovestory.de",
@@ -801,7 +801,7 @@ export default [
   },
   {
     name: "Bricole",
-    date: { year: 2018, month: 5 },
+    date: { year: 2018, month: "Mai" },
     district: "Prenzlauer Berg",
     notes: "Confierter Pfirsich\nDorade\nSchwarzwurzel-Velouté\nSchweinebauch mit ???-mousse\n3 Beeten\nPassionsfrucht-Tarte",
     url: "https://bricole.de",
@@ -810,7 +810,7 @@ export default [
   },
   {
     name: "Cô Cô bánh mì deli",
-    date: { year: 2018, month: 6 },
+    date: { year: 2018, month: "Juni" },
     district: "Mitte",
     notes: "Ei Banh Mi\nLemongrass-Meatball Banh Mi",
     url: "https://www.cocobanhmideli.de",
@@ -818,7 +818,7 @@ export default [
   },
   {
     name: "G wie Goulasch",
-    date: { year: 2018, month: 7 },
+    date: { year: 2018, month: "Juli" },
     district: "Kreuzberg",
     notes: "Gurken-Minzsuppe\nGulasch\nSalat mit Bergkäse",
     by: "lars",
@@ -826,7 +826,7 @@ export default [
   },
   {
     name: "Kopps",
-    date: { year: 2018, month: 7 },
+    date: { year: 2018, month: "Juli" },
     district: "Mitte",
     notes: "Kopps Rolls\nGeeiste Kräuter\nPfifferlinge\nGin Sorbet\nHeidelbeere\nKäsetasche\nWeinbegleitung",
     url: "https://www.kopps-berlin.de",
@@ -835,7 +835,7 @@ export default [
   },
   {
     name: "Feinberg's",
-    date: { year: 2018, month: 8 },
+    date: { year: 2018, month: "August" },
     district: "Schöneberg",
     notes: "Hummus mit Lamm\nDip-Platte\nRotkraut-Salat\nIsraelischer Salat\nKibbeh",
     url: "https://feinbergs.de",
@@ -844,7 +844,7 @@ export default [
   },
   {
     name: "WaWa",
-    date: { year: 2018, month: 9 },
+    date: { year: 2018, month: "September" },
     district: "Schöneberg",
     notes: "Bibimbap mit Schwein + Ei\nBulgogi mit Süßkartoffel-Glasnudeln\nVeggie-Mandu",
     url: "https://www.wawaberlin.com",
@@ -853,7 +853,7 @@ export default [
   },
   {
     name: "Sticks'n'Sushi",
-    date: { year: 2018, month: 9 },
+    date: { year: 2018, month: "September" },
     district: "Schöneberg",
     notes: "??? Miso-Soup\nDucks & their friends\nNigiri-Platte\nEdamame\nLachstataki\n3×Löffeldessert (Green Tea Fondant, Schoko-Fondant, Reispudding)",
     url: "https://sticksnsushi.com",
@@ -862,7 +862,7 @@ export default [
   },
   {
     name: "Café Jacques",
-    date: { year: 2018, month: 10 },
+    date: { year: 2018, month: "Oktober" },
     district: "Kreuzberg",
     notes: "Süßkartoffel-Orangensuppe\nRoast beef mit Kartoffeln\nRavioli",
     url: "https://www.cafejacques.de",
@@ -871,7 +871,7 @@ export default [
   },
   {
     name: "La Lucha",
-    date: { year: 2018, month: 11 },
+    date: { year: 2018, month: "November" },
     district: "Kreuzberg",
     notes: "Guacamole, Frijoles, Quesadilas Azul, Ensalada la Lucha, Carnitas, Tacos",
     by: "lars",
@@ -879,7 +879,7 @@ export default [
   },
   {
     name: "Ushido",
-    date: { year: 2018, month: 11 },
+    date: { year: 2018, month: "November" },
     district: "Kreuzberg",
     notes: "Misosuppe, Gemischtes Gemüse, ???, Mochie, Marcha Dessert",
     url: "http://www.ushido-bbq.com",
@@ -888,7 +888,7 @@ export default [
   },
   {
     name: "Sissi",
-    date: { year: 2018, month: 12 },
+    date: { year: 2018, month: "Dezember" },
     district: "Schöneberg",
     notes: "Ente mit Rotkraut und Knödeln\nSpinatknödel\nGänseparfait\nKürbissuppe",
     url: "https://www.sissi-berlin.de",
@@ -897,7 +897,7 @@ export default [
   },
   {
     name: "Sarods",
-    date: { year: 2019, month: 1 },
+    date: { year: 2019, month: "Januar" },
     district: "Kreuzberg",
     notes: "Pad Thai Tofu\nCurry Ente\nGebackenes Gemüse",
     url: "https://www.sarods.de",
@@ -905,7 +905,7 @@ export default [
   },
   {
     name: "Zum Mond",
-    date: { year: 2019, month: 1 },
+    date: { year: 2019, month: "Januar" },
     district: "Kreuzberg",
     notes: "Entenparfait\nBeeten mit Lakritz und Walnuss\nHirsch mit Wurzelgemüse und Kartoffelrösti\nKräuterseitling mit Perlgraubenrisotto\nApfelcrumble mit weißem Schokoladenparfait",
     by: "lars",
@@ -913,7 +913,7 @@ export default [
   },
   {
     name: "Salami Social Club",
-    date: { year: 2019, month: 1 },
+    date: { year: 2019, month: "Januar" },
     district: "Friedrichshain",
     notes: "Celeriac Pizza\nSalami Picante Pizza",
     url: "https://salamisocialclub.de",
@@ -922,7 +922,7 @@ export default [
   },
   {
     name: "Crazy Kim's",
-    date: { year: 2019, month: 2 },
+    date: { year: 2019, month: "Februar" },
     district: "Kreuzberg",
     notes: "Vegetarische Mannu\nUdon mit Gemüse\nKorean BBQ Rindfleisch\n3× Eis (Nutella, Erdnuss, Gurke-Limette)",
     by: "lars",
@@ -930,7 +930,7 @@ export default [
   },
   {
     name: "Mariona",
-    date: { year: 2019, month: 2 },
+    date: { year: 2019, month: "Februar" },
     district: "Kreuzberg",
     notes: "Arroz Negro\nPapas mit Trüffeln\nLachs mit Avocado-Mousse\nCrema Catalana\nSchoko-Fondant",
     url: "http://www.mariona-berlin.de",
@@ -939,7 +939,7 @@ export default [
   },
   {
     name: "Lode & Stijn",
-    date: { year: 2019, month: 2 },
+    date: { year: 2019, month: "Februar" },
     district: "Kreuzberg",
     notes: "Menü mit Weinbegleitung\nBitterballen ???, Kalbstartar\nAuster, Shitakepilze & Kohl\nPommes Anna\nRosenkohl\nSattelschwein mit ???\nJoghurt, Baiser, exotische Frucht",
     url: "https://www.lode-stijn.de",
@@ -948,7 +948,7 @@ export default [
   },
   {
     name: "Schlesisch Blau",
-    date: { year: 2019, month: 4 },
+    date: { year: 2019, month: "April" },
     district: "Kreuzberg",
     notes: "Spargelsuppe / Tomatensuppe\nSalat\nChampignon-quiche\nRöstitaler mit ???\nLammbraten mit Kartoffeln und Bohnen\n???\nZitronentarte",
     url: "https://sattundfroh.de/schlesisch-blau",
@@ -957,7 +957,7 @@ export default [
   },
   {
     name: "Rosa Caleta",
-    date: { year: 2019, month: 5 },
+    date: { year: 2019, month: "Mai" },
     district: "Kreuzberg",
     notes: "Süßkartoffelspätzle\nGulasch\nPlantains",
     by: "lars",
@@ -966,7 +966,7 @@ export default [
   },
   {
     name: "Richard",
-    date: { year: 2019, month: 7 },
+    date: { year: 2019, month: "Juli" },
     district: "Kreuzberg",
     notes: "Sellerie\nKohlrabisalat\nErbsen\nSteinpilze\nPfirsich\nPaprika\nCaprese\nKartoffeln",
     url: "https://restaurant-richard.com",
@@ -974,7 +974,7 @@ export default [
   },
   {
     name: "Gazzo",
-    date: { year: 2019, month: 7 },
+    date: { year: 2019, month: "Juli" },
     district: "Neukölln",
     notes: "Brandenburger Buffallo-Mozarella Pizza\nSalat mit Kichererbsen",
     url: "https://www.gazzopizza.com",
@@ -983,7 +983,7 @@ export default [
   },
   {
     name: "Pho Phan",
-    date: { year: 2019, month: 9 },
+    date: { year: 2019, month: "September" },
     district: "Neukölln",
     notes: "Sommerrollen\nMassamncurry Ente\nBun Bó",
     url: "https://phophanberlin.de",
@@ -991,7 +991,7 @@ export default [
   },
   {
     name: "Layla",
-    date: { year: 2019, month: 9 },
+    date: { year: 2019, month: "September" },
     district: "Mitte",
     notes: "Lamb with ??? salad\nCeviche\nCouscous with vegetables\nSesame bread",
     url: "https://layla-restaurant.webflow.io",
@@ -1000,7 +1000,7 @@ export default [
   },
   {
     name: "Hugo Ball",
-    date: { year: 2019, month: 10 },
+    date: { year: 2019, month: "Oktober" },
     district: "Neukölln",
     notes: "Ofenkürbis mit Thymian Flammkuchen\nLorraine Kartoffel Flammkuchen",
     url: "https://www.hugoball.de",
@@ -1009,14 +1009,14 @@ export default [
   },
   {
     name: "Hako Ramen",
-    date: { year: 2019, month: 10 },
+    date: { year: 2019, month: "Oktober" },
     district: "Friedrichshain",
     notes: "Miso Ramen vegetarisch\nTonkatsu Ramen scharf",
     by: "lars"
   },
   {
     name: "Ela",
-    date: { year: 2019, month:  10 },
+    date: { year: 2019, month: "Oktober" },
     district: "Kreuzberg",
     notes: "Rinderbraten mit Knödeln und Rotkohl\nRote Beete Risotto",
     by: "faina",
@@ -1024,7 +1024,7 @@ export default [
   },
   {
     name: "Sabata",
-    date: { year: 2019, month: 12 },
+    date: { year: 2019, month: "Dezember" },
     district: "Mitte",
     notes: "Sabata Teller (Falafel, Hummus, Tahini, Salat)",
     url: "https://falafel-sababa.metro.rest",
@@ -1032,7 +1032,7 @@ export default [
   },
   {
     name: "Panther",
-    date: { year: 2020, month: 1 },
+    date: { year: 2020, month: "Januar" },
     district: "Kreuzberg",
     notes: "Wiener Schnitzel\nLachs mit Süßkartoffel\nKaiserschmarrn",
     url: "https://www.restaurantpanther.de",
@@ -1041,7 +1041,7 @@ export default [
   },
   {
     name: "Kin Dee",
-    date: { year: 2020, month: 1 },
+    date: { year: 2020, month: "Januar" },
     district: "Schöneberg",
     notes: "Schwarzwurzel\nTom Ka\nVegetarisches Curry",
     url: "https://www.kindeeberlin.com",
@@ -1050,7 +1050,7 @@ export default [
   },
   {
     name: "Der Blaue Fuchs",
-    date: { year: 2020, month: 2 },
+    date: { year: 2020, month: "Februar" },
     district: "Prenzlauer Berg",
     notes: "Gebtratene Khinkali\nLubio\nGeorgischer Salat",
     url: "https://derblauefuchs.metro.bar",
@@ -1058,7 +1058,7 @@ export default [
   },
   {
     name: "Barra",
-    date: { year: 2020, month: 3 },
+    date: { year: 2020, month: "März" },
     district: "Neukölln",
     notes: "Oliven, Focaccia\nSellerie, Granny Smith Salat\nAgnolotti Ricotta\nBergkäse",
     url: "https://www.barraberlin.com",
@@ -1066,7 +1066,7 @@ export default [
   },
   {
     name: "Koshary Lux",
-    date: { year: 2020, month: 6 },
+    date: { year: 2020, month: "Juni" },
     district: "Charlottenburg",
     notes: "Koshari\nFattoush\nHackfleischbällchen\nFoul\nKartoffeln & Süßkartoffeln",
     url: "https://en.kosharylux.com",
@@ -1075,7 +1075,7 @@ export default [
   },
   {
     name: "Da Jia Le",
-    date: { year: 2020, month: 7 },
+    date: { year: 2020, month: "Juli" },
     district: "Schöneberg",
     notes: "Gurkensalat mit Chiliöl\nSauer-Scharf-Suppe\nSchweinefleisch süß-sauer\nRindfleisch mit Kreuzkümmel",
     url: "http://dajiale-berlin.de",
@@ -1084,7 +1084,7 @@ export default [
   },
   {
     name: "Mucha Muchacha",
-    date: { year: 2020, month: 7 },
+    date: { year: 2020, month: "Juli" },
     district: "Neukölln",
     notes: "Guacamole Chips\nBohnensuppe\nQuesadillas mit Pilzen\nTacos mit Kartoffelpüree",
     by: "faina",
@@ -1092,7 +1092,7 @@ export default [
   },
   {
     name: "Pastarium",
-    date: { year: 2020, month: 7 },
+    date: { year: 2020, month: "Juli" },
     district: "Kreuzberg",
     notes: "Spaghetti Bolognese\nSpaghetti Burrata",
     url: "https://pastarium.de",
@@ -1101,7 +1101,7 @@ export default [
   },
   {
     name: "Tante Fichte",
-    date: { year: 2021, month: 5 },
+    date: { year: 2021, month: "Mai" },
     district: "Kreuzberg",
     notes: "Lachs mit Kräutersauce\nSpargel mit Zitronensauce\nHeilbutt mit \"Letscho\"\nMaibock und Zander\nErdbeeren mit Mascarpone",
     url: "https://tantefichte.berlin",
@@ -1110,7 +1110,7 @@ export default [
   },
   {
     name: "Josl",
-    date: { year: 2021, month: 6 },
+    date: { year: 2021, month: "Juni" },
     district: "Charlottenburg",
     notes: "Kräuter Kasnudeln\nHinter ???",
     url: "https://josl.berlin",
@@ -1119,7 +1119,7 @@ export default [
   },
   {
     name: "Agäis",
-    date: { year: 2021, month: 10 },
+    date: { year: 2021, month: "Oktober" },
     district: "Neukölln",
     notes: "Mezze\nDorade\nSardinen",
     by: "faina",
@@ -1127,7 +1127,7 @@ export default [
   },
   {
     name: "Night Kitchen",
-    date: { year: 2021, month: 12 },
+    date: { year: 2021, month: "Dezember" },
     district: "Mitte",
     notes: "??? Brot\nAuberginentabuleh\nBlumenkohl\nRotkohl\nZucchini-Burrata",
     url: "https://nightkitchen.berlin",
@@ -1136,7 +1136,7 @@ export default [
   },
   {
     name: "EST",
-    date: { year: 2022, month: 1  },
+    date: { year: 2022, month: "Januar" },
     district: "Charlottenburg",
     notes: "Edamame\nWagyu Tataki\n??? Orange\nGyoza\nBlumenkohl\nJapanese Greens\nSpicy Chilled Noodles\nUdon\nPosset",
     url: "https://est-restaurant.de",
@@ -1144,7 +1144,7 @@ export default [
   },
   {
     name: "Malakeh",
-    date: { year: 2022, month: 1 },
+    date: { year: 2022, month: "Januar" },
     district: "Schöneberg",
     notes: "Köfte mit Pinienkernen\nFatoush\nPaprikapaste",
     url: "https://malakeh-restaurant.de",
@@ -1152,7 +1152,7 @@ export default [
   },
   {
     name: "Hallmann & Klee",
-    date: { year: 2022, month: 2 },
+    date: { year: 2022, month: "Februar" },
     district: "Neukölln",
     notes: "2× 6-Gänge Menü\nKohlrabi, Dammwild, Lachs\nRote Beete, Sellerie",
     url: "https://hallmann-klee.de",
@@ -1161,7 +1161,7 @@ export default [
   },
   {
     name: "Sardinen Bar",
-    date: { year: 2022, month: 3 },
+    date: { year: 2022, month: "März" },
     district: "Schöneberg",
     notes: "Rote Beete Salat\nCharcuterie- & Käseplatte\nSardinen in Tomatensauce\nWarme Sardinen in Korianderbutter",
     url: "https://sardinenbarberlin.com",
@@ -1170,7 +1170,7 @@ export default [
   },
   {
     name: "Heimlich Treu",
-    date: { year: 2022, month: 4 },
+    date: { year: 2022, month: "April" },
     district: "Prenzlauer Berg",
     notes: "Menü mit allem\nPerlhuhn\nZiegenkäse\nMaultaschen\nFleisch mit Nudeln",
     url: "https://heimlichtreu.de",
@@ -1178,7 +1178,7 @@ export default [
   },
   {
     name: "Taverna To Koutouki",
-    date: { year: 2022, month: 5 },
+    date: { year: 2022, month: "Mai" },
     district: "Neukölln",
     notes: "Griechischer Salat\nWeiße Riesenbohnen\nZucchinitaler\nMoussaka",
     by: "lars",
@@ -1186,7 +1186,7 @@ export default [
   },
   {
     name: "Terz",
-    date: { year: 2022, month: 5 },
+    date: { year: 2022, month: "Mai" },
     district: "Neukölln",
     notes: "Brot & Butter, Mortadella\nFrittierter Blumenkohl in Bierteig\n???, Spargel, Eierstich\n48h gekochtes Fleisch\nDrei Käse",
     url: "https://terz.berlin",
@@ -1195,7 +1195,7 @@ export default [
   },
   {
     name: "Khao Taan",
-    date: { year: 2022, month: 7  },
+    date: { year: 2022, month: "Juli"  },
     district: "Friedrichshain",
     notes: "Zwei Suppen, Salat\nRindfleisch Curry\nEnte, Relish",
     url: "https://khaotaan.com",
@@ -1204,7 +1204,7 @@ export default [
   },
   {
     name: "Wanna Eat",
-    date: { year: 2022, month:  7 },
+    date: { year: 2022, month: "Juli" },
     district: "Neukölln",
     notes: "??? Nudeln mit Ei\nRainbow-Teller mit allen Dumplings",
     by: "faina",
@@ -1212,7 +1212,7 @@ export default [
   },
   {
     name: "Seaside",
-    date: { year: 2022, month: 8 },
+    date: { year: 2022, month: "August" },
     district: "Mitte",
     notes: "Oktopussalat\nGegrillter Lachs & Dorade mit Gurkensalat, Kartoffeln\nCrème Brulée & Affogato",
     url: "https://seaside-fish.com",
@@ -1221,7 +1221,7 @@ export default [
   },
   {
     name: "Hostaria de Monte Croce",
-    date: { year: 2022, month:  8},
+    date: { year: 2022, month: "August" },
     district: "Kreuzberg",
     notes: "Antipasti-Teller\nProsciutto & Feigensalat\nÜberbackene Aubergine\nTortelloni mit Pfifferlingen\n??? / Pilze mit Salat\nJoghurtcreme",
     url: "https://befo.de",
@@ -1230,7 +1230,7 @@ export default [
   },
   {
     name: "Jelänger jelieber",
-    date: { year: 2022, month: 8 },
+    date: { year: 2022, month: "August" },
     district: "Lichtenberg",
     notes: "Schweineschnitzel?\nSalat",
     url: "https://jelängerjelieber.de",
@@ -1238,7 +1238,7 @@ export default [
   },
   {
     name: "Paris-Moskau",
-    date: { year: 2022, month: 10 },
+    date: { year: 2022, month: "Oktober" },
     district: "Mitte",
     notes: "Salat\nKürbislasagne\nWild\nDessert - Schoko & Beeren",
     url: "https://www.paris-moskau.de",
@@ -1247,7 +1247,7 @@ export default [
   },
   {
     name: "VOLT",
-    date: { year: 2022, month: 10 },
+    date: { year: 2022, month: "Oktober" },
     district: "Kreuzberg",
     notes: "2×4-Gänge Menü\nBeeten / Forelle",
     url: "https://restaurant-volt.de",
@@ -1255,7 +1255,7 @@ export default [
   },
   {
     name: "Hey Schnecke",
-    date: { year: 2022, month: 10 },
+    date: { year: 2022, month: "Oktober" },
     district: "Schöneberg",
     notes: "Mohnschnecke\nZimtschnecke\nHerzhaftes Gebäck",
     url: "https://hey-schnecke.com",
@@ -1263,7 +1263,7 @@ export default [
   },
   {
     name: "Centopassi",
-    date: { year: 2022, month: 10 },
+    date: { year: 2022, month: "Oktober" },
     district: "Friedrichshain",
     notes: "Brot & Oliven\nAntipasti ???",
     by: "lars",
@@ -1271,7 +1271,7 @@ export default [
   },
   {
     name: "Bobbe",
-    date: { year: 2022, month: 10 },
+    date: { year: 2022, month: "Oktober" },
     district: "Schöneberg",
     notes: "Hummus & Salat\nBlumenkohl\nArais\nCouscous mit Gemüse\nZwei Bisschen Schokolade",
     url: "https//bobbe.berlin",
@@ -1280,7 +1280,7 @@ export default [
   },
   {
     name: "No Bananas",
-    date: { year: 2022, month: 11 },
+    date: { year: 2022, month: "November" },
     district: "Kreuzberg",
     notes: "Borekas\nBrot mit Dips",
     url: "https://nobananasberlin.de",
@@ -1288,7 +1288,7 @@ export default [
   },
   {
     name: "Paran",
-    date: { year: 2022, month: 12 },
+    date: { year: 2022, month: "Dezember" },
     district: "Neukölln",
     notes: "Gemüse ???\nGemüsefrikadelle\nGlasnudelsalat\nBulgogi",
     url: "https://paranberlin.de",
@@ -1297,7 +1297,7 @@ export default [
   },
   {
     name: "Burro Unchained",
-    date: { year: 2022, month: 12 },
+    date: { year: 2022, month: "Dezember" },
     district: "Neukölln",
     notes: "Pulpo\n2× Tostadas (Rind & Avocado)\nBurrata\nCheesecake",
     by: "lars",
@@ -1305,14 +1305,14 @@ export default [
   },
   {
     name: "Element Five",
-    date: { year: 2022, month: 12 },
+    date: { year: 2022, month: "Dezember" },
     district: "Kreuzberg",
     notes: "Tapas, z.B. Wan Tan\nCurry, Sojastreifen\nHefekloß",
     by: "faina"
   },
   {
     name: "Caputo",
-    date: { year: 2023, month: 1  },
+    date: { year: 2023, month: "Januar" },
     district: "Neukölln",
     notes: "Salat\nPizza Rucola\nSpaghetti Carbonara",
     url: "https://caputo-kreuzkoelln.de",
@@ -1320,7 +1320,7 @@ export default [
   },
   {
     name: "Suhsi Gang",
-    date: { year: 2023, month: 1  },
+    date: { year: 2023, month: "Januar" },
     district: "Kreuzberg",
     notes: "Blumenkohl\nMisosuppe\n???\nAvocado Rolls\nThunfisch Tartar Rolls\nGebratene Garnele Rolls",
     url: "https://sushi-gang.de",
@@ -1328,7 +1328,7 @@ export default [
   },
   {
     name: "acht&dreißig",
-    date: { year: 2023, month: 1  },
+    date: { year: 2023, month: "Januar" },
     district: "Mitte",
     notes: "Königsberger Klopse",
     url: "https://restaurant38berlin.de",
@@ -1336,7 +1336,7 @@ export default [
   },
   {
     name: "Noble Rot Weinbar",
-    date: { year: 2023, month: 2 },
+    date: { year: 2023, month: "Februar" },
     district: "Friedrichshain",
     notes: "Käseplatte\nOliven",
     url: "https://weinbar-berlin.com",
@@ -1345,7 +1345,7 @@ export default [
   },
   {
     name: "Schneeweiß",
-    date: { year: 2023, month: 3 },
+    date: { year: 2023, month: "März" },
     district: "Friedrichshain",
     notes: "??? Ei\nBeeten\nSchnitzel\nMaultaschen",
     url: "https://schneeweiss-berlin.de",
@@ -1354,7 +1354,7 @@ export default [
   },
   {
     name: "Oh Madriz",
-    date: { year: 2023, month: 3 },
+    date: { year: 2023, month: "März" },
     district: "Kreuzberg",
     notes: "Pimientos\nAlbonidgas\nCocido\nDatteln\nTortialla\nCroqueta\nCrema Catalana",
     by: "faina",
@@ -1362,7 +1362,7 @@ export default [
   },
   {
     name: "Tsomi",
-    date: { year: 2023, month: 4 },
+    date: { year: 2023, month: "April" },
     district: "Prenzlauer Berg",
     notes: "Khachipuri Käse\nChartsko\nKhinkali ???\nSalat",
     url: "https://restaurant-tsomi.de",
@@ -1371,7 +1371,7 @@ export default [
   },
   {
     name: "Remi",
-    date: { year: 2023, month: 4  },
+    date: { year: 2023, month: "April"  },
     district: "Mitte",
     notes: "",
     url: "https://remi-berlin.de",
@@ -1379,7 +1379,7 @@ export default [
   },
   {
     name: "Berta",
-    date: { year: 2023, month: 4  },
+    date: { year: 2023, month: "April"  },
     district: "Mitte",
     notes: "Jerusalem Bagel & Brioche\nCeviche\nPulpo\nRisotto mit Sauerampfer\nBlaubeereis Keks ???",
     url: "https://bertarestaurant.com",
@@ -1388,7 +1388,7 @@ export default [
   },
   {
     name: "Obermeier",
-    date: { year: 2023, month: 5 },
+    date: { year: 2023, month: "Mai" },
     district: "Kreuzberg",
     notes: "Rote Beete\nSchnitzel\nSpätzle\nMarillenknödel",
     url: "https://obermeier-kreuzberg.de",
@@ -1396,7 +1396,7 @@ export default [
   },
   {
     name: "St Bart",
-    date: { year: 2023, month: 6 },
+    date: { year: 2023, month: "Juni" },
     district: "Kreuzberg",
     notes: "Sauerteigbrot\nSunday Roast\nNussbraten\nChocolate Berry Tarte",
     url: "https://stbartpub.com",
@@ -1405,7 +1405,7 @@ export default [
   },
   {
     name: "Fa:me",
-    date: { year: 2023, month: 7 },
+    date: { year: 2023, month: "Juli" },
     district: "Kreuzberg",
     notes: "Vorspeisenteller\nDreierlei Tartar (Fisch)\nOktopus auf Burrataschaum\nKartoffel Mille-Feuille mit Pfifferlingen\nZitronenblondie",
     url: "https://famegastrobar.com",
@@ -1414,7 +1414,7 @@ export default [
   },
   {
     name: "Golvet",
-    date: { year: 2023, month: 7 },
+    date: { year: 2023, month: "Juli" },
     district: "Mitte",
     notes: "7-Gänge Menü mit\n- Gruß aus der Küche (Rettich, Melone)\n- Sommersalat mit Kürbis\n- Brandenburger Wildtartar\n- Hamachi mit Kaviar\n- Wels mit Zitussauce\n- Zweierlei Lamm mit Jus\n- Tomatendessert\n- Mirabellendessert\n- Zimtschnecke\n- Gurken- und Rote-Beete-Geist",
     url: "https://golvet.de",
@@ -1423,7 +1423,7 @@ export default [
   },
   {
     name: "Facciola",
-    date: { year: 2023, month: 8 },
+    date: { year: 2023, month: "August" },
     district: "Kreuzberg",
     notes: "Oliven\nTagliare mit Käse und Wurst\nVegetarische Lasagne\nPanna Cotta",
     url: "https://www.facciolawinebar.com",
@@ -1432,7 +1432,7 @@ export default [
   },
   {
     name: "Antonello's Sizilianische Cevicheria & Street Food",
-    date: { year: 2023, month: 8 },
+    date: { year: 2023, month: "August" },
     district: "Kreuzberg",
     notes: "Cazille (Kartoffel-Aubergine Kroketten)\nInsalata di Polipo\nCeviche Mango\nCeviche Rosso & Bianco (Thunfisch und Wolfsbarsch)\nPanna Cotta",
     url: "https://www.cevicheriastreetfood.de",
@@ -1441,7 +1441,7 @@ export default [
   },
   {
     name: "Bar DaF",
-    date: { year: 2023, month: 9 },
+    date: { year: 2023, month: "September" },
     district: "Treptow",
     notes: "Lachs Sashimi\nSchweinebauch-Wirsing-Dumplings\nTofu-Gemüse-Dumplings\nPasta mit weißer Sauce\nWakame-Gurken-Salat\nEdamame\nSpagliato",
     url: "https://www.bardaf.de",
@@ -1450,7 +1450,7 @@ export default [
   },
   {
     name: "COOQUIN Café",
-    date: { year: 2023, month: 10 },
+    date: { year: 2023, month: "Oktober" },
     district: "Lichtenberg",
     notes: "Gỏi bơ (Avocado) Salat\nBánh Mì Xá Xíu (Scheinefleisch)\nBánh Mì Gà Nướng (Zitronengras Hähnchen)\nEistee",
     url: "https://www.cooquin.de",
@@ -1458,7 +1458,7 @@ export default [
   },
   {
     name: "Paracas",
-    date: { year: 2023, month: 10 },
+    date: { year: 2023, month: "Oktober" },
     district: "Mitte",
     notes: "Cabrito Norteño\nGemüsefajitas\nCrema Catalana",
     url: "https://paracas.de",
@@ -1466,7 +1466,7 @@ export default [
   },
   {
     name: "Asude",
-    date: { year: 2023, month: 11 },
+    date: { year: 2023, month: "November" },
     district: "Neukölln",
     notes: "Linsensuppe\nKöfte\nEintopf mit Kartoffeln \"und Gemischtes\"\nSütlac",
     url: "https://asude.de",
@@ -1475,7 +1475,7 @@ export default [
   },
   {
     name: "Wurstpate",
-    date: { year: 2023, month: 11 },
+    date: { year: 2023, month: "November" },
     district: "Mitte",
     notes: "Currywurst (scharf)\nKettwurst im Brot\nGroße Pommes mit Majo\nZwei Glühwein",
     url: "https://www.wurstpateoriginal.de",
@@ -1483,7 +1483,7 @@ export default [
   },
   {
     name: "Black Flamingo",
-    date: { year: 2024, month: 1 },
+    date: { year: 2024, month: "Januar" },
     district: "Palm Jumeirah",
     notes: "Plantain und Krabbenchips mit Guacamole\nPanierter Baby-Squid\nChoclos (verschiedene Maissorten)\nTrüffelstampf\nSchicke Cocktails",
     url: "https://blackflamingodxb.com",
@@ -1491,7 +1491,7 @@ export default [
   },
   {
     name: "Al Fanar Seafood Restaurant",
-    date: { year: 2024, month: 1 },
+    date: { year: 2024, month: "Januar" },
     district: "Al Barsha",
     notes: "Mixed starters (Croquettes, Fish cakes, Aubergine)\nSeafood soup\nSlightly burned Seab Base Tandoori\nMixed Salad",
     url: "https://www.alfanarrestaurant.com/uae",
@@ -1499,7 +1499,7 @@ export default [
   },
   {
     name: "Ernst Biergarten & Wirtshaus",
-    date: { year: 2024, month: 3 },
+    date: { year: 2024, month: "März" },
     district: "DIFC",
     notes: "Wiener Schnitzel\nCurrywurst (Contains Pork!)\nBeilagensalat\nKaiserschmarrn",
     url: "https://ernstbiergarten.com",
@@ -1508,7 +1508,7 @@ export default [
   },
   {
     name: "Katsuya",
-    date: { year: 2024, month: 3 },
+    date: { year: 2024, month: "März" },
     district: "Business Bay",
     notes: "Edamame\nHouse Salad\nBrokkoli Tempura\nWagyu Gyoza\nTuna Roll\nSunset Roll\nCrispy Salmon Roll",
     url: "https://restaurantsandbars.accor.com/en/restaurant/B8Y1_R002",
@@ -1517,7 +1517,7 @@ export default [
   },
   {
     name: "Qartuli",
-    date: { year: 2024, month: 4 },
+    date: { year: 2024, month: "April" },
     district: "Downtown",
     notes: "Lobio\nGeorgian salad with walnut dressing\nKhachapuri\nKhinkali",
     url: "https://www.qartuli.ae",
@@ -1526,7 +1526,7 @@ export default [
   },
   {
     name: "Atrangi",
-    date: { year: 2024, month: 4 },
+    date: { year: 2024, month: "April" },
     district: "Jumeirah",
     notes: "Sweet potato carpaccio\nSmoked duck kebab\nCorn cobs with corn porridge\nMutton Chops with mint sauce\nDal makhani with naan",
     url: "https://www.atrangidubai.com",
@@ -1535,7 +1535,7 @@ export default [
   },
   {
     name: "The Eloquent Elephant",
-    date: { year: 2024, month: 5 },
+    date: { year: 2024, month: "Mai" },
     district: "Business Bay",
     notes: "Steamed vegetables\nMashed potatoes\nSalmon tartar\nBurrata salad\nG & Tea",
     url: "https://www.tajhotels.com/en-in/hotels/taj-dubai/restaurants/the-eloquent-elephant",
@@ -1544,7 +1544,7 @@ export default [
   },
   {
     name: "Teible",
-    date: { year: 2024, month: 6 },
+    date: { year: 2024, month: "Juni" },
     district: "Al Jadaf",
     notes: "Miso Labneh Tomatoes\nSeabass Ceviche\nOctopus\nGrilled Cauliflower\nRavioli Pumpkin",
     url: "https://www.teible.com",
@@ -1552,7 +1552,7 @@ export default [
   },
   {
     name: "The Kosher Place",
-    date: { year: 2024, month: 7 },
+    date: { year: 2024, month: "Juli" },
     district: "Deira",
     notes: "Eight variety homemade salads of the day and focaccia made on the Tabun\nArais\nMoroccan fish cigar",
     url: "https://thekosherplace.ae/dubai",
@@ -1560,7 +1560,7 @@ export default [
   },
   {
     name: "Café Isan",
-    date: { year: 2024, month: 8 },
+    date: { year: 2024, month: "August" },
     district: "JLT",
     notes: "Papaty salad\nPad Thai\nThe hustler\nMagno and sticky rice",
     url: "https://www.cafeisan.co",
@@ -1568,7 +1568,7 @@ export default [
   },
   {
     name: "Couqley French Brasserie",
-    date: { year: 2024, month: 8 },
+    date: { year: 2024, month: "August" },
     district: "Business Bay",
     notes: "Salade de lentilles\nOctopus\nSweet roasted peppers\nMoules frites\nTarte fine aux pommes",
     url: "https://couqley.ae/couqley-downtown",
@@ -1577,7 +1577,7 @@ export default [
   },
   {
     name: "Jara",
-    date: { year: 2024, month: 9 },
+    date: { year: 2024, month: "September" },
     district: "Business Bay",
     notes: "Squid and mushroom croquetes\nAvocado salad\nMashed potatoes\nRoasted peppers\nClam risotto\nMezcal negroni with chocolate\nAgri dulce cocktail (no alcohol)",
     url: "https://www.dorchestercollection.com/dubai/the-lana/dining/jara-by-martin-berasategui",
@@ -1586,7 +1586,7 @@ export default [
   },
   {
     name: "Al Ustad Special Kebap",
-    date: { year: 2024, month: 9 },
+    date: { year: 2024, month: "September" },
     district: "Bur Dubai",
     notes: "Iranian house soup\nTahdeek (scorched rice)\nGarlic Paste\nMixed Salad\nMutton kebap",
     url: "https://alustadspecialkabab.has.restaurant",
