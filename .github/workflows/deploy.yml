@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     name: Deploy
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
