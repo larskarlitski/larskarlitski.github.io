@@ -46,9 +46,7 @@ let view = {
 };
 
 fs.mkdirSync("site/mittwochsdates", { recursive: true });
-
-for (let file of fs.readdirSync("static/mittwochsdates"))
-  fs.copyFileSync("static/mittwochsdates/" + file, "site/mittwochsdates/" + file)
+fs.cpSync("static/", "site/", { recursive: true });
 
 fs.writeFileSync(
    "site/mittwochsdates/index.html",
