@@ -1592,5 +1592,14 @@ export default [
     url: "https://alustadspecialkabab.has.restaurant",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Berenjak",
+    date: { year: 2024, month: "Oktober" },
+    district: "Dar Wasl",
+    notes: "Shirazi (cucumber and tomato salad)\nBlack chickpea hummus\nMast o khiar (strained yoghurt with cucumber & mint)\nPanir sabzi (persian lighvan cheese & herbs)\nGhormeh sabzi (lamb stew with kidney beans)\nBarbari & Taftoon bread",
+    url: "https://berenjakuae.com/",
+    by: "faina",
+    starred: true
   }
 ];
