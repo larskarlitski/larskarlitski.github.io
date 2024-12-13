@@ -1601,5 +1601,13 @@ export default [
     url: "https://berenjakuae.com/",
     by: "faina",
     starred: true
+  },
+  {
+    name: "Al Fayrooz Lounge",
+    date: { year: 2024, month: "November" },
+    district: "Jumeirah",
+    notes: "Afternoon tea, four savory, four (too) sweet\nScones",
+    url: "https://www.jumeirah.com/en/stay/dubai/jumeirah-al-qasr/dining/al-qasr-al-fayrooz-lounge",
+    by: "faina"
   }
 ];
