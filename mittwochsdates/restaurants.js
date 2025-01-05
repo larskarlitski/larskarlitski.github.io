@@ -1609,5 +1609,22 @@ export default [
     notes: "Afternoon tea, four savory, four (too) sweet\nScones",
     url: "https://www.jumeirah.com/en/stay/dubai/jumeirah-al-qasr/dining/al-qasr-al-fayrooz-lounge",
     by: "faina"
+  },
+  {
+    name: "Sisi's Eatery ",
+    date: { year: 2024, month: "Dezember" },
+    district: "Dubai Hills",
+    notes: "Wiener Schnitzel with potato salad\nChanterelle Mushroom Goulash\nKaiserschmarrn\nTea",
+    url: "https://www.sisiseatery.com",
+    by: "lars"
+  },
+  {
+    name: "HAPI",
+    date: { year: 2025, month: "Januar" },
+    district: "Al Satwa",
+    notes: "Sweet Potato Salad\nBeef Bone Broth with rice noodles, broccoli, and mushrooms\nRoast Beef Sandwich",
+    url: "https://hapi.ae",
+    by: "lars",
+    starred: true
   }
 ];
