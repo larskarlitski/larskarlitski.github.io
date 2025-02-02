@@ -1626,5 +1626,14 @@ export default [
     url: "https://hapi.ae",
     by: "lars",
     starred: true
+  },
+  {
+    name: "Moonrise",
+    date: { year: 2025, month: "Februar" },
+    district: "Al Satwa",
+    notes: "Explosion (Foie Gras Puri, Date Syrup, Saffron & Pineapple Chutney, Autumn Truffle)\nRoots (Variations of Local Tomato, Zaatar & Nori Furikake, House Labnah)\nGrilled Cheese (36-Month Aged Parmigiano-Reggiano & Black Pepper Emulsion, Hokkaido Milk Bread, Black Garlic, Truffle)\nShima Aji & Tomato (Aged Shima Aji Sashimi, Fresh Zaatar, Tomato Leche De Tigre)\nMarket Prawns (Gambero Rosso, Toum-Ranch, Pedro Ximenez, Dill)\nMoonrise Khubz (2 Year Old Charcoal Khubz, Miso Butter, Dates)\n90's Alfredo (Lobster & Jalapeño Ravioli, Aged Parmigiano-Reggiano Rind Sauce, Brown Butter)\nSarookh & Turbot (Sarookh Beurre Blanc, Aged Galician Turbot, Smoked Herbs, Asparagus)\nLoomi Tikka (Saroma A5 Sirloin, Celeriac, Kabab Jus, Shiso)\nMuskmelon & Labnah (Aged Shizuoka Muskmelon, Sweet Labnah & Sidr Honey Froyo, Yuzu Gel, Olive Oil Foam, Yoghurt Crisps)\nAbood Juice Cheesecake (White Chocolate Cheesecake, Alphonso Mango, Brown Butter, Local Honey Gel)\nStarry Nights (Mignardise & Genmaicha)\n",
+    url: "https://www.moon-rise.xyz",
+    by: "faina",
+    starred: true
   }
 ];
