@@ -1635,5 +1635,14 @@ export default [
     url: "https://www.moon-rise.xyz",
     by: "faina",
     starred: true
+  },
+  {
+    name: "Seville's",
+    date: { year: 2025, month: "März" },
+    district: "Umm Hurair",
+    notes: "Tortilla\nCroquetas\nGreen asparagus\nIberico & cheese platter\nPan con tomate\nSalad\nArroz negro\nAlcohol-free beer",
+    url: "https://www.zomato.com/dubai/sevilles-umm-hurair",
+    by: "lars",
+    starred: true
   }
 ];
